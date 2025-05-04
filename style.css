@@ -1697,6 +1697,10 @@ label {
 /* Responsividade para telas muito pequenas (smartphones de 480px ou menos) */
 @media (max-width: 480px) {
 
+  body {
+    width: 90%;
+  }
+
   nav.menu-lateral{
     width: 50px;
   }
@@ -1718,14 +1722,15 @@ label {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
-    width: 50%;
+    width: 45%;
+    height: 100%;
   }
 
   .card__photo {
     
     align-self: center;
-    margin: 20px;
-    padding: 20px 0;
+    margin: 10px;
+    padding: 10px 0;
     width: fit-content;
   }
   
@@ -1752,8 +1757,8 @@ label {
   }
 
   .introduction h1 {
-    font-size: 36px;
-    padding-right: 40px;
+    font-size: 32px;
+    padding-right: 20px;
     width: fit-content;
   }
 
@@ -1786,11 +1791,11 @@ label {
   }
 
   .about__detail h2 {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .about__detail {
-   width: 80%;
+   width: 70%;
    
   }
 
@@ -1800,7 +1805,7 @@ label {
   }
 
   .about-text {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .skill-circle p {
@@ -1818,14 +1823,18 @@ label {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     margin-right: 15%;
+  }
+
+  .skill__detail h3 {
+    font-size: 32px;
   }
 
   .skill-detail {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
   }
 
   .skill-grid {
