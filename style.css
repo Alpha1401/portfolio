@@ -1696,11 +1696,6 @@ label {
 
 /* Responsividade para telas muito pequenas (smartphones de 480px ou menos) */
 @media (max-width: 480px) {
-
-  body {
-    width: 90%;
-  }
-
   nav.menu-lateral{
     width: 50px;
   }
@@ -1722,7 +1717,7 @@ label {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
-    width: 45%;
+    width: 35%;
     height: 100%;
   }
 
@@ -1795,13 +1790,14 @@ label {
   }
 
   .about__detail {
-   width: 70%;
+   width: 65%;
+   padding-right: 10px;
    
   }
 
   .about-detail {
-    max-width:55%;
-    padding-right: 70px;
+    max-width: 55%;
+    padding-right: 90px;
   }
 
   .about-text {
@@ -1823,18 +1819,18 @@ label {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
     margin-right: 15%;
   }
 
   .skill__detail h3 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .skill-detail {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
   }
 
   .skill-grid {
@@ -1846,8 +1842,8 @@ label {
 
 
   .skill-box {
-    height: 200px;
-    width: 350px;
+    height: 180px;
+    width: 300px;
   }
 
   .skill-box svg {
@@ -1856,7 +1852,7 @@ label {
   }
 
   .skill__text {
-    font-size: 32px;
+    font-size: 26px;
     text-align: left;
   }
 
@@ -1864,11 +1860,15 @@ label {
   .portfolio-detail {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
   }
 
   .portfolio__detail {
-    margin-left: 15%;
+    margin-left: 0%;
+  }
+
+  .portfolio__detail h3 {
+    font-size: 28px;
   }
 
   
@@ -1943,6 +1943,10 @@ label {
    height: 5rem;
   }
 
+  .feature__detail h3 {
+    font-size: 32px;
+  }
+
   .slider {
     height: 750px;
     padding-top: 40px;
@@ -1954,7 +1958,7 @@ label {
   }
 
   .slide .tema__feature {
-    width: 380px;
+    width: 350px;
     height: 690px;
   }
 
@@ -1995,7 +1999,7 @@ label {
   .temas {
     display: flex;
     flex-direction: column;
-    width: 44%;
+    width: 40%;
     margin: 0;
   }
 
@@ -2043,7 +2047,7 @@ label {
   .contact-detail {
     margin: 0;
     padding: 0 2%;
-    width: 44%;
+    width: 40%;
   }
 
   .contact__detail h3 {
