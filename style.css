@@ -1695,7 +1695,7 @@ label {
 }
 
 /* Responsividade para telas muito pequenas (smartphones de 480px ou menos) */
-@media (max-width: 480px) {
+@media (max-width: 407px) {
   nav.menu-lateral{
     width: 50px;
   }
