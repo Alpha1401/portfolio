@@ -1796,8 +1796,8 @@ label {
   }
 
   .about-detail {
-    max-width: 55%;
-    padding-right: 90px;
+    max-width: 50%;
+    padding-right: 80px;
   }
 
   .about-text {
@@ -1876,7 +1876,7 @@ label {
     display: flex;
     flex-direction: column;
     overflow:scroll;
-    width: 80%;
+    width: 75%;
   }
 
   video{
@@ -1937,9 +1937,9 @@ label {
   }
 
   .service__detail, .feature__detail {
-   width: 100%;
+   width: 80%;
    padding: 15px;
-   margin: 20px 20px 60px 40px;
+   margin: 20px 20px 60px 20px;
    height: 5rem;
   }
 
@@ -1958,17 +1958,17 @@ label {
   }
 
   .slide .tema__feature {
-    width: 350px;
+    width: 330px;
     height: 690px;
   }
 
   .navigation-auto  {
-    width: 380px;
+    width: 330px;
     margin-top: 655px;
   }
 
   .manual-navegation{
-    width: 380px;
+    width: 330px;
     margin-top: -45px;
   }
 
@@ -1999,7 +1999,7 @@ label {
   .temas {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 35%;
     margin: 0;
   }
 
@@ -2047,7 +2047,7 @@ label {
   .contact-detail {
     margin: 0;
     padding: 0 2%;
-    width: 40%;
+    width: 35%;
   }
 
   .contact__detail h3 {
