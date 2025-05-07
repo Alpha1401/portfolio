@@ -1697,7 +1697,7 @@ label {
 /* Responsividade para telas muito pequenas (smartphones de 480px ou menos) */
 @media (max-width: 480px) {
   nav.menu-lateral{
-    width: 50px;
+    width: 40px;
   }
 
   nav.menu-lateral .btn-expandir > i {
@@ -1706,7 +1706,7 @@ label {
 
   ul li.item-menu a {
     font-size: 14px;
-    padding: 9px 4%;
+    padding: 10px 5%;
   }
 
   nav.menu-lateral ul li .icon > i {
@@ -2154,10 +2154,10 @@ label {
 
 @media (max-width:360px) {
 
-  body {
+  /* body {
     width: 90%;
   }
-  
+   */
   nav.menu-lateral{
     width: 50px;
   }
