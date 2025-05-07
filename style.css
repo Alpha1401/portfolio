@@ -1937,18 +1937,22 @@ label {
   }
 
   .service__detail, .feature__detail {
-   width: 80%;
+   width: 35%;
    padding: 15px;
    margin: 20px 20px 60px 20px;
-   height: 5rem;
+   height: 6rem;
+  }
+
+  .service__detail h3 {
+    font-size: 28px;
   }
 
   .feature__detail h3 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .slider {
-    height: 750px;
+    height: 800px;
     padding-top: 40px;
   }
 
@@ -1959,17 +1963,17 @@ label {
 
   .slide .tema__feature {
     width: 330px;
-    height: 690px;
+    height: 720px;
   }
 
   .navigation-auto  {
     width: 330px;
-    margin-top: 655px;
+    margin-top: 690px;
   }
 
   .manual-navegation{
     width: 330px;
-    margin-top: -45px;
+    margin-top: -10px;
   }
 
   .service-list-ordenada-feature {
