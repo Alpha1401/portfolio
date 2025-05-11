@@ -1717,6 +1717,7 @@ label {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
+    padding-left: 30px;
     width: 35%;
     height: 100%;
     justify-content: center;
@@ -1877,6 +1878,7 @@ label {
     justify-content: center;
     align-items: center;
     width: 40%;
+    
   }
 
   .portfolio__detail {
@@ -1893,6 +1895,7 @@ label {
     flex-direction: column;
     overflow:scroll;
     width: 75%;
+    margin-right: 30px;
   }
 
   video{
@@ -1955,7 +1958,7 @@ label {
   .service__detail, .feature__detail {
    width: 35%;
    padding: 15px;
-   margin: 20px 20px 60px 20px;
+   margin: 20px 20px 60px 60px;
    height: 6rem;
   }
 
@@ -2070,7 +2073,7 @@ label {
   .contact-detail {
     margin: 0;
     padding: 0 2%;
-    width: 35%;
+    width: 40%;
   }
 
   .contact__detail h3 {
@@ -2126,7 +2129,7 @@ label {
   }
 
 
-  input:focus~span,
+  input:focus~span,  
   .message:focus~span{
   font-size: 24px;
   transform: translateY(-30px);
