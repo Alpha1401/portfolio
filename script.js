@@ -124,44 +124,44 @@ video.addEventListener("ended", () => {
   }, 100); // 100 ms de atraso para evitar comportamento inesperado
 });
 
-// let count = 1;
-// document.getElementById("radio1").checked = true;
+let count = 1;
+document.getElementById("radio1").checked = true;
 
-// setInterval( function(){
-//   nextImage();
-// }, 5000)
+setInterval( function(){
+  nextImage();
+}, 6000)
 
-// function nextImage(){
-//   count++;
-//   if(count>4){
-//     count=1;
-//   }
+function nextImage(){
+  count++;
+  if(count>4){
+    count=1;
+  }
 
-//   document.getElementById("radio"+count).checked = true;
-// }
+  document.getElementById("radio"+count).checked = true;
+}
 
 
-// function adjustText() {
-//   const items = [
-//     { selector: ".nav-buttons", full: "Navigation Buttons", short: "Nav Btns" },
-//     { selector: ".settings", full: "Settings", short: "Sett" },
-//     { selector: ".profile", full: "User Profile", short: "Profile" },
-//     { selector: ".dashboard", full: "Dashboard", short: "Dash" }
-//   ];
+function adjustText() {
+  const items = [
+    { selector: ".nav-buttons", full: "Navigation Buttons", short: "Nav Btns" },
+    { selector: ".settings", full: "Settings", short: "Sett" },
+    { selector: ".profile", full: "User Profile", short: "Profile" },
+    { selector: ".dashboard", full: "Dashboard", short: "Dash" }
+  ];
 
-//   items.forEach(item => {
-//     const element = document.querySelector(item.selector);
-//     if (element) {
-//       const textSpan = element.querySelector(".nav-text");
-//       if (textSpan) {
-//         textSpan.textContent = window.innerWidth <= 360 ? item.short : item.full;
-//       }
-//     }
-//   });
-// }
+  items.forEach(item => {
+    const element = document.querySelector(item.selector);
+    if (element) {
+      const textSpan = element.querySelector(".nav-text");
+      if (textSpan) {
+        textSpan.textContent = window.innerWidth <= 360 ? item.short : item.full;
+      }
+    }
+  });
+}
 
-// window.addEventListener("resize", adjustText);
-// document.addEventListener("DOMContentLoaded", adjustText);
+window.addEventListener("resize", adjustText);
+document.addEventListener("DOMContentLoaded", adjustText);
 
 
 
